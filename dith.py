@@ -49,7 +49,7 @@ def dithering_gray(inMat, samplingF):
     return inMat
 
 #read image
-inMat = cv2.imread('cameraman.tif') #specify the image you want to use
+inMat = cv2.imread('cameraman.png') #specify the image you want to use
 
 #gray ditering
 grayMat = cv2.cvtColor(inMat, cv2.COLOR_BGR2GRAY)
